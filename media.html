@@ -1,37 +1,36 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>About Me: A Media Showcase</title>
+    <title>About Me</title>
 </head>
-<body>
 
+<body>
     <header>
         <h1>A Little About Me Through Media</h1>
-        <p>This page uses various HTML media elements to tell a story.</p>
+        <h1>Hello, I'm Ahdeyiga Oluwatobi</h1>
+        <p>I blend creativity, technology, and vision to build a better world.</p>
     </header>
 
     <main>
         <section>
-            <h2>My Journey in Code (A Responsive Image)</h2>
-            <p>Like an image that adapts to its environment, a developer must adapt to new technologies and challenges.</p>
-            
+
             <!-- Picture element with multiple sources for responsiveness -->
             <picture>
                 <!-- Source for small screens (e.g., mobile phones) -->
-                <source media="(max-width: 600px)" srcset="https://placehold.co/600x400/3498db/ffffff?text=Mobile+View">
-                
+                <source media="(max-width: 600px)" srcset="https://i.postimg.cc/g2NVbySk/ah.jpg">
+
                 <!-- Source for medium screens (e.g., tablets) -->
-                <source media="(max-width: 900px)" srcset="https://placehold.co/900x500/9b59b6/ffffff?text=Tablet+View">
-                
+                <source media="(max-width: 900px)" srcset="https://i.postimg.cc/g2NVbySk/ah.jpg">
+
                 <!-- Source for large screens (e.g., laptops/desktops) -->
-                <source media="(min-width: 901px)" srcset="https://placehold.co/1200x600/2ecc71/ffffff?text=Laptop+View">
-                
-                <!-- Fallback image for older browsers -->
-                <img src="https://placehold.co/600x400/e74c3c/ffffff?text=Fallback+Image" alt="A placeholder image showing a developer's journey." 
-                     onerror="this.onerror=null;this.src='https://placehold.co/600x400';">
-            </picture>
+                <source media="(min-width: 901px)" srcset="https://i.postimg.cc/g2NVbySk/ah.jpg">
+
+
+                <img src="./Assets/Images/ah.jpg" alt="Portrait of Ahdeyiga Oluwatobi" width="auto" height="300">
+                    </picture>
         </section>
 
         <section>
@@ -39,10 +38,10 @@
             <p>Here is a short audio clip. I find that the right background sounds can be great for concentration.</p>
             <!-- Audio element -->
             <audio controls>
-                <!-- This is a placeholder; you would replace 'audio.mp3' with your actual audio file -->
+
                 <source src="audio.ogg" type="audio/ogg">
                 <source src="audio.mp3" type="audio/mpeg">
-              Your browser does not support the audio element.
+
             </audio>
         </section>
 
@@ -50,23 +49,13 @@
             <h2>A Quick Video Introduction</h2>
             <p>A short video is a great way to connect. Here’s a placeholder video to demonstrate the video tag.</p>
             <!-- Video element -->
-            <video width="320" height="240" controls poster="https://placehold.co/320x240/f1c40f/000000?text=Video+Poster">
+            <video width="320" height="240" controls poster="">
                 <!-- This is a placeholder; you would replace 'movie.mp4' with your actual video file -->
                 <source src="movie.mp4" type="video/mp4">
                 <source src="movie.ogg" type="video/ogg">
-              Your browser does not support the video tag.
+                Your browser does not support the video tag.
             </video>
         </section>
-
-        <section>
-            <h2>Embedding Content with an Iframe</h2>
-            <p>We can even embed other web pages directly. Below is the AltSchool table from the other page:</p>
-            <!-- Iframe element to embed the table.html page -->
-            <iframe src="table.html" width="100%" height="300" title="AltSchool Courses Table">
-                Your browser does not support iframes.
-            </iframe>
-        </section>
-
     </main>
 
     <footer>
@@ -74,4 +63,5 @@
     </footer>
 
 </body>
+
 </html>
